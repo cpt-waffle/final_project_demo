@@ -3,7 +3,7 @@ import './counter.css'
 
 function Counter(props) {
 
-    const [num, setNum] = useState(0);
+    const [counter, setCounter] = useState(0);
 
     return <div> 
         <div className="counter">
