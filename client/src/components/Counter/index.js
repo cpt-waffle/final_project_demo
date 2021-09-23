@@ -9,7 +9,7 @@ function Counter(props) {
         <div className="counter">
             <h1>{num}</h1>
         </div>
-        <button onClick={() => setNum(prev => prev + 1)}>+</button>
+        <button onClick={() => setCounter(prev => prev + 1)}>+</button>
     </div>
 }
 
